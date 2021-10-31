@@ -16,5 +16,7 @@ public class MainActivity extends AppCompatActivity {
     public void playButtonClick(View view){
         Intent intent=new Intent( this,PlayerSetup.class);
         startActivity(intent);
+
+
     }
 }
